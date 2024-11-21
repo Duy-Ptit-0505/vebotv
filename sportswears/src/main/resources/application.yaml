@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/sportswear
+    username: root
+    password: 5ul4n4nh
+  mvc:
+    favicon:
+      enabled=false:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  app:
+    jwtSecret: cQdiKaMYsvXaFkwz32/IhA==
+    jwtExpirationMs: 86400000
